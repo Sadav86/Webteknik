@@ -12,7 +12,27 @@
                 <li><a href="presentation.html">Presentation</a></li>
                 <li><a href="laborationer.html">Laborationer</a></li>
         </ul>
-        
+        <form action="" method="post">
+            <fieldset>
+                <legend>Fråga</legend>
+                <select id="q1">
+                    <option type="text">Hej</option>
+                    <option type="text">Då</option>
+                </select>
+                <label for="rubrik">Rubrik</label>
+                <textarea id="rubrik">Fyll i</textarea>
+                <label for="fråga">Fråga:</label>
+                <input type="text" id="fråga" />
+            </fieldset>
+            <fieldset>
+                <legend>Information om dig</legend>
+                <label><input type="checkbox" name="man" />Man</label>
+                <label><input type="checkbox" name="kvinna" />Kvinna</label>
+                <label><input type="checkbox" name="över 30" />Över 30</label>
+                <label><input type="checkbox" name="30 eller under" />30 eller under</label>
+            </fieldset>
+            <input type="submit" value="Submit!"/>
+        </form>
         
     </body>    
 </html>
