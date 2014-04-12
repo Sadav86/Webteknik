@@ -1,0 +1,14 @@
+#header, #navigation, video, #bunny, form {
+    display:none;
+}
+
+#content, #parts, div {
+    width: 1000px; 
+    margin: 0; 
+    float: none;
+    margin-left:10%;
+}
+
+.right {
+    clear:right;
+}
