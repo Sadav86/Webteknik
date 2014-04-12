@@ -30,7 +30,7 @@ till min hemsida
     background-color:#36BBCE;
     text-decoration:none;
 }
-
+/*
 #navigation ul {
     list-style: none;
     font-family: "Century Gothic", Verdana, Arial, Sans-Serif;
@@ -62,6 +62,39 @@ till min hemsida
 
 #navigation ul li a:hover {
     background-color:orange;
+} */
+
+#fun a {
+    width:24px;
+    height:24px;
+    display:block;
+    background-image:url('Pics/sprite.png');
+    text-indent:-99999px;
+}
+
+#hem {
+    background-position: 0px -48px; 
+}
+#hem:hover {
+    background-position:0px -0px; 
+}
+#epost {
+    background-position:0px -336px;
+}
+#epost:hover {
+    background-position:0px -288px;
+}
+#port {
+    background-position:0px -240px;
+}
+#port:hover {
+    background-position:0px -192px;
+}
+#lab {
+    background-position:0px -144px;
+}
+#lab:hover {
+    background-position:0px -96px;
 }
 
 #content {
