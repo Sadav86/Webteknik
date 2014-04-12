@@ -6,7 +6,7 @@ till min hemsida
 #container {
     overflow: auto;
     max-width: 960px;
-    background-color:#36BBCE;
+    background-color:#5FBDCE;
     margin: 0 auto;
     
 }
@@ -26,10 +26,42 @@ till min hemsida
 
 #navigation {
     width: 200px;
-    height: 1150px;
     float: left;
     background-color:#36BBCE;
+    text-decoration:none;
+}
+
+#navigation ul {
+    list-style: none;
+    font-family: "Century Gothic", Verdana, Arial, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+
     
+}
+
+
+#navigation ul li {
+    height:1em;
+    clear:both;
+    width:200px;
+}
+
+#navigation ul li a{
+    display:block;
+    width:140px;
+    margin:0px;
+    padding:0px;
+    border-collapse:collapse;
+}
+
+#navigation ul li:nth-child(odd){
+    background-color:#5FBDCE;    
+}
+
+#navigation ul li a:hover {
+    background-color:orange;
 }
 
 #content {
@@ -49,27 +81,34 @@ till min hemsida
 }
 
 #banner {
+    background-color: #36BBCE;
+    margin-top:2px;
     padding-top:10px;
-    padding-bot:15px;
-    background-color: orange;
+    padding-bottom:15px;
+    clear:left;
+    border-radius:15px;
     
 }
 
-#parts {
-    background-color: #5FBDCE;
-}
 
-
-div {
+#parts div {
     margin-left: auto;
     margin-right: auto;
-    background-color: #5FBDCE;
+    background-color: #36BBCE;
+    border-radius:15px;
+}
+
+.right {
+    float:right;
 }
 
 #footer {
     width:960px;
     float: right;
-    background-color:#36BBCE;
+    background-color:orange;
+}
+h2{
+    margin-left:20px;
 }
 
 h3 {
@@ -78,3 +117,33 @@ h3 {
     margin-right: auto;
 }
 
+form {
+     background-color:#5FBDCE;
+}
+
+#q1 {
+    float:left;
+}
+#rubrik {
+    clear:left;
+    float:left;
+}
+#ru {
+    clear:left;
+    float:left;
+}
+#fr {
+    clear:left;
+    float:left;
+}
+
+#fråga {
+    clear:left;
+    float:left;
+}
+#submit {
+    float:right;
+}
+fieldset {
+    border: none;
+}
